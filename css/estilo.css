@@ -1,0 +1,32 @@
+body{
+	background-color:#F9E6ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	
+}
+h1{
+	text-align: center;
+	font-size: 36px;
+    color: #A1623A;
+    font-family: 'Verdana';
+    text-transform: uppercase;
+    
+}
+a{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+	text-align: center;
+	font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    
+}
+ul{}
+p{
+	font-family: 'Arial';
+	font-size: 16px;
+	color: #020302;
+}

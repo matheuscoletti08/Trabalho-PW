@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 2.0;
 }
 
 body {
@@ -13,13 +15,12 @@ body {
 h1 {
     text-align: center;
     font-size: 36px;
-    font-family: 'Verdana';
     text-transform: uppercase;
 
 }
 
 p,
-h1 {
+h1, ul {
     color: #fff;
 }
 
@@ -31,14 +32,12 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #FFFFFF;
-    font-family: 'Arial';
-
 }
 
 p {
-    font-family: 'Arial';
     font-size: 16px;
 }
+
 
 .item {
     background-color: #343a40;
@@ -46,7 +45,8 @@ p {
     border-radius: 10px;
     margin-bottom: 1cm;
     text-align: center;
-    height: 60px;
+    height: 100px;
+    width: 500px;
 }
 
 .item a,
@@ -55,20 +55,27 @@ p {
     padding-top: 10px;
 }
 
+.intro, .cloud, .content {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
 .nav {
     background-color: #020302;
-    height: 50px;
+    height: 65px;
     border-bottom: 3px #343a40 solid;
 }
 
 .nav ul {
     display: inline-flex;
     margin: 15px 0 0 0;
+    
 }
 
 .nav ul li {
     list-style-type: none;
     margin-right: 1rem;
+    /**/
 }
 
 .nav ul li ul {

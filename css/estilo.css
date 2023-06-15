@@ -1,32 +1,115 @@
-body{
-	background-color:#F9E6ED;
+* {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 2.0;
+}
+
+body {
+    background-color: #212529;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-	
 }
-h1{
-	text-align: center;
-	font-size: 36px;
-    color: #A1623A;
-    font-family: 'Verdana';
+
+h1 {
+    text-align: center;
+    font-size: 36px;
     text-transform: uppercase;
-    
+
 }
-a{
+
+p,
+h1, ul {
+    color: #fff;
+}
+
+a {
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
-	text-align: center;
-	font-size: 18px;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
     color: #FFFFFF;
-    font-family: 'Arial';
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.item {
+    background-color: #343a40;
+    border: 2px #495057 solid;
+    border-radius: 10px;
+    margin-bottom: 1cm;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+}
+
+.item a,
+.item span,
+.item img {
+    padding-top: 10px;
+}
+
+.intro, .cloud, .content {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+.nav {
+    background-color: #020302;
+    height: 65px;
+    border-bottom: 3px #343a40 solid;
+}
+
+.nav ul {
+    display: inline-flex;
+    margin: 15px 0 0 0;
     
 }
-ul{}
-p{
-	font-family: 'Arial';
-	font-size: 16px;
-	color: #020302;
+
+.nav ul li {
+    list-style-type: none;
+    margin-right: 1rem;
+    /**/
 }
+
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    padding: 0;
+    margin-top: -0.2rem;
+}
+
+.nav ul li:hover ul {
+    display: block;
+}
+
+.nav ul li ul li {
+    width: 100%;
+}
+
+.nav ul li ul li a {
+    color: #ffffff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav ul li ul li a:hover {
+    background-color: #495057;
+}
+.item img {
+    width: 50px; 
+    height: auto; 
+  }
+  .logofooter img {
+    width: 50px; 
+    height: auto; 
+  }
